@@ -17,7 +17,7 @@ public class PTra06_02 {
 
 			// ★ 奇数回のときには、「奇数」を出力してください
 			if((i%2)==1) {
-				System.out.println(i+"奇数");
+				System.out.println("奇数");
 			}
 
 		}
