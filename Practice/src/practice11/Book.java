@@ -58,7 +58,7 @@ public class Book {
 		StringBuilder str = new StringBuilder();
 		str.append("本のタイトル：");
 		str.append(this.title);
-		str.append("\n");
+		
 		str.append("著者　　　　：");
 		str.append(this.author);
 		str.append("\n");

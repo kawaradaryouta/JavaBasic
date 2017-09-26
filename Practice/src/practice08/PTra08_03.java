@@ -36,6 +36,12 @@ public class PTra08_03 {
 		boolean result=(( x%2)==0);
 		return result ;
 
+//		if(( x%2)==0) {
+//			return true;
+//		} else {
+//			return false;
+//		}
+
 
 	}
 }

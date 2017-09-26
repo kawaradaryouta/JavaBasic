@@ -13,7 +13,7 @@ public class PTra08_06 {
 		dispValue(2000);
 		dispValue(319.569);
 		dispValue('島');
-
+		
 	}
 
 	/*
@@ -27,12 +27,12 @@ public class PTra08_06 {
 	 */
 	public static void dispValue(String message) {
 		System.out.println("「" + message + "」");
-		System.out.println("「" + message + "」");
+		
 	}
 
 	// ★ dispValueを引数intでオーバーロードしてください。処理は同じ
 	 public static int dispValue(int message) {
-		 
+		 System.out.println("「" + message + "」");
 	        return message;
 	       
 	 }
