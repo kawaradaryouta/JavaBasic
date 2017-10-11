@@ -24,6 +24,7 @@ public class FileReaderClass {
 	 * bookData.csvを読み込み、Bookの配列として取得します。
 	 * @return	bookDataの内容をBookインスタンスの配列として変換した形
 	 */
+	 
 	public static Book[] readBookDataFile() {
 		String[] fileRow = new String[65536];	/* とりあえずたくさん確保：List<String>を使いたい */
 		Book[] bookList = null;				/* 初期値：List<Book>を使いたい */

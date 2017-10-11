@@ -15,7 +15,7 @@ public class PTra11_01 {
 		 */
 		Book book= new Book("スッキリわかるJava入門" ,  "中山清喬／国本大悟", 2600 , 657 , "インプレス");
 
-
+		
 		// 本の情報を出力します
 		System.out.println(book.dispBookInfo());
 	}

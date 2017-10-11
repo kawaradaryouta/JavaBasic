@@ -12,7 +12,7 @@ public class PTra14_01 {
 	 * ★ common.Courseを実装した、JavaCourseクラスを作成してください
 	 *
 	 * コース名称
-	 * 		「【Eラーニング】Java」
+	 * 		【Eラーニング】「Java」
 	 * 単元
 	 * 		式と演算
 	 * 		制御構文
