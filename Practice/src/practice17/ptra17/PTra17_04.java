@@ -24,7 +24,7 @@ public class PTra17_04 {
 	        // 配列数を取得
 	        int num = data.length;
 
-	        for (int i = 0; i <= num - 1; i++) {
+	        for (int i = 0; i < num ; i++) {
 
 	            try{
 	                // 指定ミリ秒の間眠る

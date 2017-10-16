@@ -27,7 +27,7 @@ public class PTra11_03 {
 		// ★ sumメソッドを呼び出してください
 
 		PTra11_03 sum=new PTra11_03();
-		sum.sum(10,5);
+		sum.sum(5,10);
 	}
 
 	public void sum(int x, int y) {

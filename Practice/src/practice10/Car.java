@@ -7,7 +7,7 @@ public class Car {
 	int gasoline;
 
 	int run() {
-		this.gasoline-=1;
+		this.gasoline--;
 		if(this.gasoline<0) {
 			return -1;
 		}

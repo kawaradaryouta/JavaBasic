@@ -60,6 +60,6 @@ public class PTra10_06 {
 				}
 					}
 			}
-		}
+		}チェック
 	}
 }

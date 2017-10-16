@@ -15,15 +15,19 @@ public class PTra07_04 {
 
 		// ★ 配列trumpに、[1,2,3,4,5,・・・・,52] を代入してください
 		for(int i=0;i<trump.length;i++) {
-			trump[i]=i++;
+			trump[i]=i+1;
 
 		}
 
 		// ★ 0～51の中からランダムで値を取得して、変数indexに代入してください
-			int index = new java.util.Random().nextInt(51);
-			
+			int index = new java.util.Random().nextInt(2);
+
 
 		// ★ 配列trumpのindex番目の中に入っている数字を出力してください
+//			System.out.println(trump[index]);
 			System.out.println(trump[index]);
+			for (int i = 0; i < trump.length; i++) {
+				System.out.println(trump[i]);
+			}
 	}
 }

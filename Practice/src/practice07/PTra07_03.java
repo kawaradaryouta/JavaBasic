@@ -13,6 +13,8 @@ public class PTra07_03 {
 		char[]keyward= {'平', '島', '沼', '山', '森'};
 
 		// ★ 配列keywordに格納されている値を後ろから順番に全て表示してください
-		System.out.println(keyward);
+		for(int i = keyward.length-1; 0<=i;i--) {
+		System.out.println(keyward[i]);
+		}
 	}
 }

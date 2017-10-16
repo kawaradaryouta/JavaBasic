@@ -57,26 +57,27 @@ public class PTra18_04 {
 			if (player.getPosition().equals("GK")) {
 				if (GKCount < 1) {
 
-					System.out.println(player.getName());
+					System.out.println(player);
 					GKCount += 1;
 				}
 			}
 			if (player.getPosition().equals("DF")) {
 				if (DFCount < 4) {
-					System.out.println(player.getName());
+					System.out.println(player);
 					DFCount += 1;
 				}
 			}
 			if (player.getPosition().equals("MF")) {
 				if (MFCount < 4) {
-					System.out.println(player.getName());
+					System.out.println(player);
 					MFCount += 1;
 				}
 			}
 			if (player.getPosition().equals("FW")) {
 				if (FWCount < 2) {
-					System.out.println(player.getName());
+					System.out.println(player);
 					FWCount += 1;
+
 				}
 			}
 		}

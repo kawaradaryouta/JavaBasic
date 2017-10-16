@@ -55,5 +55,5 @@ public class PTra06_07 {
 			System.out.println("■□□□□");
 		}
 
-	}
+	}チェック
 }

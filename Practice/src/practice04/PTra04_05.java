@@ -34,60 +34,37 @@ public class PTra04_05 {
 			// 下記の命令を実行すると変数cpuHandに、0以上、変数3未満の数字がランダムで代入されます
 			int cpuHand = new java.util.Random().nextInt(3);
 
-			//---------------------ここから本題-----------------------
+			// ---------------------ここから本題-----------------------
 			/*
-			 * 以下のプログラムでは、まだ未完成です。
-			 * ★ 残りのプログラムを追記して、じゃんけんゲームを完成させてください
+			 * 以下のプログラムでは、まだ未完成です。 ★ 残りのプログラムを追記して、じゃんけんゲームを完成させてください
 			 *
-			 * ●じゃんけんに、勝った場合はプログラムを終了します
-			 * ●あいこ、又は負けた場合は、勝つまでプログラムが終わりません
+			 * ●じゃんけんに、勝った場合はプログラムを終了します ●あいこ、又は負けた場合は、勝つまでプログラムが終わりません
 			 *
 			 * ※ プログラムは何行書いても良いです
 			 */
 			if (cpuHand == 0) {
 				System.out.println("グー！");
 
-
-
-
-
 				if (myHand == 2) {
 					System.out.println("パー！！");
-					winFlg=true;
+					winFlg = true;
 				}
-
 
 			} else if (cpuHand == 1) {
 				System.out.println("チョキ！！");
 				if (myHand == 0) {
 					System.out.println("グー！");
-					winFlg=true;
-
-
-
-
-
-
+					winFlg = true;
 
 				}
-
-
-
-
 
 			} else {
 				System.out.println("パー！！");
 
-
-
-
 				if (myHand == 1) {
 					System.out.println("チョキ！！");
 
-					winFlg=true;
-
-
-
+					winFlg = true;
 
 				}
 			}

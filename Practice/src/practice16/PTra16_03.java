@@ -20,7 +20,7 @@ public class PTra16_03 {
 
 
 	public String toString() {
-		super.toString();
+		
 		String name=super.toString();
 		return name+"\r\nPTra16_03#toString()の処理";
 
